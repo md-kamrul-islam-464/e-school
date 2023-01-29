@@ -1,0 +1,336 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Nav Section Starts Here */
+
+.bg-clr {
+    background-color: #F0FFF0;
+
+}
+
+.nav-logo {
+    height: 70px;
+    width: 200px;
+
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+
+}
+
+.nav-link {
+    font-size: 18px;
+
+}
+
+.sing-in-btn{
+    background-color: #21B573;
+    border-radius: 33px;
+    padding: 5px 18px;
+    align-items: center;
+
+}
+
+/* Nav Section Ends Here */
+
+
+
+
+/* Home Section Starts Here */
+
+.home-para1{
+    color: #FD511A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.home-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    
+} 
+
+.home-highlight{
+    color: #21B573;
+
+}
+
+.home-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+.home-btn{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 36px;
+    border: none;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+
+}
+
+.home-btn:hover{
+    background-image: linear-gradient(red, yellow, green);
+    border: 1px solid #21B573;
+    color: red;
+
+}
+
+.home-img{
+
+   width: 100%;
+   padding: 4rem 2rem 4rem 0;
+
+}
+
+/* Home Section Ends Here */
+
+
+
+
+/* Edu Section Starts Here  */
+
+
+.section{
+
+    margin-top: 4rem;
+
+}
+
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 280px;
+    background-color: #F8FFFB;
+    border: none;
+
+}
+
+.img-size{
+    margin: 0 auto;
+    width: 75px;
+    height: 80px;
+
+}
+
+.info-des{
+    margin-top: 1rem;
+}
+
+
+.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+
+/* Edu Section Ends Here  */
+
+
+
+
+/* Courses Section Starts Here  */
+
+.card-img-top{
+    padding: 1.5rem;
+}
+
+.cl-img {
+    width: 24px;
+    height: 24px;
+}
+
+.pep-img {
+    width: 24px;
+    height: 24px;
+
+}.pep-img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.course-footer {
+    display: flex;
+    gap: .5rem;
+    margin-top: 2rem;
+
+}
+
+.course-section {
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+
+}
+
+.course-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    margin-bottom: 3.5rem;
+
+}
+
+.course-box {
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+
+}
+
+.crs-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+
+}
+
+.crs-pera {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+
+.course-btn {
+    border: none;
+    background-color: #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: white;
+    margin-top: 1rem;
+}
+
+
+.course-btn:hover {
+    background-image: linear-gradient(red, yellow, green);
+    border: 1px solid #21B573;
+    color: rgb(242, 7, 7);
+
+}
+
+.crs-body {
+    margin-left: .5rem;
+}
+
+
+/* Courses Section Ends Here  */
+
+
+
+
+/* Testimonial Section Starts Here  */
+
+.man-img{
+     width: 120px;
+    height: 120px;
+
+}
+
+
+.test-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.test-des {
+    padding: 3rem 16.5rem;
+    gap: 3rem;
+}
+
+.man-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+/* Testimonial Section Ends Here  */
+
+
+
+/* Footer Section Starts Here  */
+
+.footer-section {
+    background-color: #282531;
+    height: 400px;
+}
+
+.text-clr {
+    color: white;
+    padding: 5rem 0;
+}
+
+.footer-pera {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-box1 {
+    list-style: none;
+    margin-left: -2rem;
+
+    Size: 16px;
+    line-height: 30px;
+
+
+}
+
+
+
+.footer-box {
+    padding-right: 10rem;
+}
+
+.copy-right {
+    color: #CDCDCD;
+    display: flex;
+    justify-content: center;
+    padding-top: -10rem;
+}
+
+/* Footer Section Ends Here  */
+
+
+
+
+
+
+
+
+
+
+
